@@ -9,3 +9,5 @@ A CTF can show us situations in which our code design choices can lead to uninte
 ## How to play
 
 Gradually as I find time to write out the different puzzles I have in mind, I will add a new folder for each puzzle in this repository. They will make use of Docker for creating the puzzle environment, and each will have its own dockerfile. As suggested in their name, the CTFs will consist in retrieving a flag from the environment, and the objective will be outlined in its README.md file. Each README.md will also contain hints and a walkthrough, though those sections will be hidden so as to not spoil those who wish to not be spoiled.
+
+My general intent is to provide various scenarios in which one must put on a developer hat and exploit some perhaps lesser-known quirks of  programming languages and/or environments to access restricted data. That said, obviously, you control all Docker containers you build, so you can easily get the flags by just logging in as root. If that gives you joy, go for it. Otherwise, I would advise working each problem as the intended user.
